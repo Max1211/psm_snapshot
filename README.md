@@ -24,4 +24,4 @@ sudo setfacl -m u:<USER>:rwx /var/log/pensando
 cccccbjnrhnlbvuibingegkkttcrtnntccbhtldjnjdi
 >>>>>>> 91fc8a3 (Initial Commit)
 
-![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://github.com/Max1211/Images/blob/main/psm_snapshot.png)
+!(https://github.com/Max1211/Images/blob/main/psm_snapshot.png)
