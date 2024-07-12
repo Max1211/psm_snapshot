@@ -1,6 +1,6 @@
-# psm_snapshot tool
+# PSM Snapshot Tool
 
-The psm_snapshot tool helps you to 
+The PSM Snapshot Tool helps you to create snaphots for PSM
 
 ## Features
 
@@ -33,7 +33,7 @@ APIGWURL=https://<psm_host><br />
 MAX_SNAPSHOTS=10<br />
 
 #Define Destinations<br />
-SCP_DESTINATIONS=["<user>:<password>@<host>:<port>:/<folder>"]<br />
+SCP_DESTINATIONS=\*["<user>:<password>@<host>:<port>:/<folder>"]\*<br />
 SFTP_DESTINATIONS=["<user>:<password>@<host>:<port>:/<folder>"]<br />
 FOLDER_DESTINATIONS=["/mnt/folder1", "/mnt/folder2"]<br />
 
