@@ -16,26 +16,26 @@ The psm_snapshot tool helps you to
 
 ### Example .env file:
 
-#Logging configuration
-LOG_ENABLED=True
-LOG_PATH=/var/log/pensando/snapshot
-CONSOLE_OUTPUT_ENABLED=True
+#Logging configuration<br />
+LOG_ENABLED=True<br />
+LOG_PATH=/var/log/pensando/snapshot<br />
+CONSOLE_OUTPUT_ENABLED=True<br />
 
-#Hash Calculation
-CALCULATE_HASH=True
+#Hash Calculation<br />
+CALCULATE_HASH=True<br />
 
-#PSM Credentials
-USERNAME=<user>
-PASSWORD=<password>
-APIGWURL=https://<psm_host>
+#PSM Credentials<br />
+USERNAME=<user><br />
+PASSWORD=<password><br />
+APIGWURL=https://<psm_host><br />
 
-#Snapshot Retention
-MAX_SNAPSHOTS=10
+#Snapshot Retention<br />
+MAX_SNAPSHOTS=10<br />
 
-#Define Destinations
-SCP_DESTINATIONS=["<user>:<password>@<host>:<port>:/<folder>"]
-SFTP_DESTINATIONS=["<user>:<password>@<host>:<port>:/<folder>"]
-FOLDER_DESTINATIONS=["/mnt/folder1", "/mnt/folder2"]
+#Define Destinations<br />
+SCP_DESTINATIONS=["<user>:<password>@<host>:<port>:/<folder>"]<br />
+SFTP_DESTINATIONS=["<user>:<password>@<host>:<port>:/<folder>"]<br />
+FOLDER_DESTINATIONS=["/mnt/folder1", "/mnt/folder2"]<br />
 
-#Password for zipfile protection
-ZIP_PASSWORD=<password>
+#Password for zipfile protection<br />
+ZIP_PASSWORD=<password><br />
