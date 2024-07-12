@@ -1,6 +1,6 @@
-<<<<<<< HEAD
+# A first-level heading
 # psm_snapshot
-=======
+
 # PSM Snapshot Creator and Manager
 
 This Python script automates the process of creating, managing, and distributing snapshots for PSM (Pensando Systems Manager). It offers features like snapshot creation, encryption, distribution to multiple destinations, and automatic cleanup of old snapshots.
