@@ -20,7 +20,7 @@ If no options are set, all snapshots will be just created on PSM and rotated bas
 ### Example .env file:
 ```
 #Logging configuration
-LOG_ENABLED=True //write logfile to LOG_PATH
+LOG_ENABLED=True
 LOG_PATH=/var/log/pensando/snapshot
 CONSOLE_OUTPUT_ENABLED=True
 
