@@ -11,7 +11,7 @@ The PSM Snapshot Tool helps you to create and export snaphots for PSM to differe
   - SFTP
   - Mounted folders
 
-All options are configured withtin the .env file.
+All options are configured withtin the .env file.< /br>
 If no options are set, all snapshots will be just created on PSM and rotated based on the "MAX_SNAPSHOTS".
 
 ![](https://github.com/Max1211/Images/blob/main/psm_snapshot.png)
