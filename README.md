@@ -15,7 +15,7 @@ The PSM Snapshot Tool helps you to create snaphots for PSM
 
 
 ### Example .env file:
-
+```
 #Logging configuration<br />
 LOG_ENABLED=True<br />
 LOG_PATH=/var/log/pensando/snapshot<br />
@@ -39,3 +39,4 @@ FOLDER_DESTINATIONS=["/mnt/folder1", "/mnt/folder2"]<br />
 
 #Password for zipfile protection<br />
 ZIP_PASSWORD=<password><br />
+```
