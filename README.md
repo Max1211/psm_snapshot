@@ -1,6 +1,6 @@
-# psm_snapshot
+# psm_snapshot tool
 
-This Python script automates the process of creating, managing, and distributing snapshots for PSM (Pensando Systems Manager). It offers features like snapshot creation, encryption, distribution to multiple destinations, and automatic cleanup of old snapshots.
+The psm_snapshot tool helps you to 
 
 ## Features
 
@@ -12,3 +12,30 @@ This Python script automates the process of creating, managing, and distributing
   - Mounted folders
 
 ![](https://github.com/Max1211/Images/blob/main/psm_snapshot.png)
+
+
+### Example .env file:
+
+#Logging configuration
+LOG_ENABLED=True
+LOG_PATH=/var/log/pensando/snapshot
+CONSOLE_OUTPUT_ENABLED=True
+
+#Hash Calculation
+CALCULATE_HASH=True
+
+#PSM Credentials
+USERNAME=<user>
+PASSWORD=<password>
+APIGWURL=https://<psm_host>
+
+#Snapshot Retention
+MAX_SNAPSHOTS=10
+
+#Define Destinations
+SCP_DESTINATIONS=["<user>:<password>@<host>:<port>:/<folder>"]
+SFTP_DESTINATIONS=["<user>:<password>@<host>:<port>:/<folder>"]
+FOLDER_DESTINATIONS=["/mnt/folder1", "/mnt/folder2"]
+
+#Password for zipfile protection
+ZIP_PASSWORD=<password>
