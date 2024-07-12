@@ -1,15 +1,18 @@
-# PSM Snapshot Tool
+# Policy and Services Manager (PSM) Snapshot Tool
 
-The PSM Snapshot Tool helps you to create snaphots for PSM
+The PSM Snapshot Tool helps you to create and export snaphots for PSM to different destinations.
 
 ## Features
 
 - Create PSM snapshots
 - Encrypt snapshots with password protection (optional)
-- Distribute snapshots to multiple destinations (optional):
+- Distribute snapshots to multiple (same or different) destinations (optional):
   - SCP
   - SFTP
   - Mounted folders
+
+All options are configured withtin the .env file.
+If no options are set, all snapshots will be just created on PSM and rotated based on the "MAX_SNAPSHOTS".
 
 ![](https://github.com/Max1211/Images/blob/main/psm_snapshot.png)
 
@@ -17,7 +20,7 @@ The PSM Snapshot Tool helps you to create snaphots for PSM
 ### Example .env file:
 ```
 #Logging configuration
-LOG_ENABLED=True
+LOG_ENABLED=True //write logfile to LOG_PATH
 LOG_PATH=/var/log/pensando/snapshot
 CONSOLE_OUTPUT_ENABLED=True
 
